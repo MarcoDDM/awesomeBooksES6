@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MarcoDDM/awesomeBooksES6/issues"
   },
-  "homepage": "https://github.com/MarcoDDM/awesomeBooksES6#readme"
+  "homepage": "https://github.com/MarcoDDM/awesomeBooksES6#readme",
+  "dependencies": {
+    "luxon": "^3.3.0"
+  }
 }
