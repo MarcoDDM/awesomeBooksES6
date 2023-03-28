@@ -1,4 +1,4 @@
-import { DateTime } from 'luxon';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 import BookList from './modules/BookList.js';
 import navigation from './modules/navigation.js';
 
@@ -10,8 +10,6 @@ function displayDate() {
 
 window.addEventListener('load', displayDate);
 
-// Use navigation variable to display navigation bar
-navigation.display();
+window.addEventListener('load', navigation);
 
-// Use bookList variable to display book list
-bookList.display();
+const bookList = new BookList();
