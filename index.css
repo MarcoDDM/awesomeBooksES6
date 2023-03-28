@@ -10,10 +10,6 @@
   display: block;
 }
 
-.hide {
-  display: none;
-}
-
 .book {
   background-color: gainsboro;
   width: 400px;
@@ -87,6 +83,10 @@ a {
 .border {
   border-right: solid 1px black;
   padding-right: 10px;
+}
+
+#date {
+  color: black;
 }
 
 .date-float {

@@ -1,6 +1,6 @@
-import BookList from "./modules/BookList.js";
+/* import { DateTime } from 'luxon'; */
+import BookList from './modules/BookList.js';
 import navigation from './modules/navigation.js';
-import { DateTime } from "luxon";
 
 function displayDate() {
   const currentDate = DateTime.local().toLocaleString(DateTime.DATE_FULL);
@@ -9,6 +9,5 @@ function displayDate() {
 }
 
 window.addEventListener('load', displayDate);
-
 
 const bookList = new BookList();
