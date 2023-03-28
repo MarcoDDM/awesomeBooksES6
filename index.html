@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+
+  <title>Awesome Books ES6</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <p>Awesome books</p>
+    <ul>
+      <li><a href="#" id="add" class="border">Add book</a></li>
+      <li><a href="#" id="list" class="border">Book List</a></li>
+      <li><a href="#" id="contact-info">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <p id="date" class="date-float"></p>
+  </section>
+
+  <section id="book-form" class="book-section">
+    <form>
+      <h1 class="center">Add a new book</h1>
+      <input for="title" type="text" id="title" required placeholder="Title"><br>
+      <input for="author" type="text" id="author" required placeholder="Author"><br>
+      <button type="submit" class="top">Add</button>
+    </form>
+  </section>
+
+  <section id="book-section">
+    <h1>All awesome books</h1>
+    <div id="book-list">
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h1>Contact information</h1><br>
+    <p>Do have any questions or you just want to say "Hello"? <br>You can reach out to us!</p><br>
+    <ul class="list">
+      <li>Our e-mail: mail@mail.com</li>
+      <li>Our phone number 004358653622</li>
+      <li>Our address: StreetName 22, 84503 City, Country</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Copyright 2020</p>
+  </footer>
+
+
+  <script type="module" src="index.js"></script>
+  <script type="module" src="modules/navigation.js"></script>
+</body>
+
+</html>
