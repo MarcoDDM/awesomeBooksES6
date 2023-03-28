@@ -10,4 +10,8 @@ function displayDate() {
 
 window.addEventListener('load', displayDate);
 
-const bookList = new BookList();
+// Use navigation variable to display navigation bar
+navigation.display();
+
+// Use bookList variable to display book list
+bookList.display();
