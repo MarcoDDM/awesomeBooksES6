@@ -38,7 +38,7 @@
 
 <div align="center">
 
-  <img src="web_mockup.png" alt="logo" width="450"  height="auto" />
+  <img src="soyMarco.png" alt="logo" width="450"  height="auto" />
   <br/>
 
   <h3><b>Awesome Books ES6 | README</b></h3>
